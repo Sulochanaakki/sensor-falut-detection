@@ -15,3 +15,8 @@ pip install -r requirements.txt
 
 pip freeze > requirements.txt(If you are using virtual env)
 ```
+
+To run setup.py file
+```
+python setup.py install
+'''
