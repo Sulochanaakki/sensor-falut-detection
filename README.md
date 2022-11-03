@@ -16,6 +16,23 @@ pip install -r requirements.txt
 pip freeze > requirements.txt(If you are using virtual env)
 ```
 
+###  Export the environment variable
+```bash
+export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
+
+export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
+
+export AWS_DEFAULT_REGION=<AWS_DEFAULT_REGION>
+
+export MONGODB_URL="mongodb+srv://<username>:<password>@ineuron-ai-projects.7eh1w4s.mongodb.net/?retryWrites=true&w=majority"
+
+```
+
+###  Run the application server
+```bash
+python app.py
+```
+
 To run setup.py file
 ```
 python setup.py install
