@@ -43,7 +43,7 @@ export MONGODB_URL="mongodb+srv://<username>:<password>@ineuron-ai-projects.7eh1
 
 ###  Run the application server
 ```bash
-python app.py
+python main.py
 ```
 
 To run setup.py file
