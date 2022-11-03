@@ -1,7 +1,10 @@
 
-wincertstore==0.2
 pymongo[srv]==4.2.0
 from-root
 scikit-learn==1.1.3
+PyYAML
+scipy
 pandas
+dill
+imblearn==0.0
 -e .
